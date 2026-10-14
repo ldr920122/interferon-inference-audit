@@ -7,7 +7,7 @@ This first public release, v1.11, accompanies manuscript v1.11. The scientific f
 ## Download and cite
 
 - [Fixed release](https://github.com/ldr920122/interferon-inference-audit/releases/tag/v1.11) includes a standalone resource ZIP and SHA-256 checksum.
-- The corresponding Zenodo record is created from this tagged GitHub source snapshot. Its version DOI will be recorded in the GitHub release and manuscript after publication.
+- [Archived version DOI: 10.5281/zenodo.23360852](https://doi.org/10.5281/zenodo.23360852) preserves the tagged v1.11 source snapshot. All 225 archived source files were downloaded from Zenodo and verified against that release.
 - Authors: Xiaohua Sun, Department of General Practice, and Dongrui Liu, Department of Pharmacy, The Affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou, Jiangsu, China.
 
 ## Contents

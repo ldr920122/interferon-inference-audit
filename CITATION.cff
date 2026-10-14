@@ -3,6 +3,7 @@ message: "Please cite this fixed resource version and the originating studies."
 title: "Interferon inference under audit: code and resource package"
 type: software
 version: "v1.11"
+doi: "10.5281/zenodo.23360852"
 date-released: 2026-10-14
 repository-code: "https://github.com/ldr920122/interferon-inference-audit"
 url: "https://github.com/ldr920122/interferon-inference-audit/releases/tag/v1.11"
