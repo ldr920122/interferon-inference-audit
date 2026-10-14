@@ -1,0 +1,24 @@
+{
+ "IFN1": {
+  "n_profiles": 88,
+  "n_accessions": 51,
+  "top1_leaky": 83,
+  "top1_loao": 83,
+  "median_rank_leaky": 1.0,
+  "median_rank_loao": 1.0,
+  "correct_sign_IFNG_minus_IFN1_leaky": 87,
+  "correct_sign_IFNG_minus_IFN1_loao": 87,
+  "rank_worse_after_removal": 2
+ },
+ "IFNG": {
+  "n_profiles": 154,
+  "n_accessions": 91,
+  "top1_leaky": 139,
+  "top1_loao": 142,
+  "median_rank_leaky": 1.0,
+  "median_rank_loao": 1.0,
+  "correct_sign_IFNG_minus_IFN1_leaky": 149,
+  "correct_sign_IFNG_minus_IFN1_loao": 149,
+  "rank_worse_after_removal": 4
+ }
+}

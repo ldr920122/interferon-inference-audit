@@ -1,0 +1,4 @@
+columns 1307 centroid (4881, 43) official (4881, 43) genes equal True families identical 43 / 43 max diff 4.440892098500626e-16
+final_columns_resolved_1307.txt sha256 793d6bce44448a14f31ab4c06befab174252b3f4a5f3fda55e360a9fe084554b
+diff.centroid_1307 sha256 c79b3fb04a2ee0675bc80eb6b8b84fda1d85925cc7095a9e51b7c9ff296df3ec
+centroid_1307_vs_official.csv sha256 233136b274cb128a2095cba4057045ed970e5bdd48dc2c6893a89e381a8fe564

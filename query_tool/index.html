@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IFN benchmark leakage index (draft)</title>
+<style>body{font-family:system-ui,sans-serif;margin:1.5rem;max-width:1200px}input{width:60%;padding:.5rem;font-size:1rem}
+table{border-collapse:collapse;width:100%;font-size:.85rem;margin-top:1rem}th,td{border:1px solid #ccc;padding:4px;vertical-align:top}
+th{background:#f3f3f3}.f{color:#a00;font-weight:bold}.p{color:#b60}.n{color:#070}nav a{margin-right:1rem}.warn{background:#fff6d6;padding:.5rem}</style></head>
+<body><nav><a href="#search" onclick="show('search')">Search</a><a href="#about" onclick="show('about')">Methods / About</a>
+<a href="leakage_index.csv" download>Download full CSV</a></nav>
+<p class="warn">Draft research resource, not peer reviewed. "Not listed" means only that the accession was not found in the parsed source lists; it is not proof of independence.</p>
+<section id="search"><h1>Has this dataset already been used to train or validate an IFN/cytokine inference method?</h1>
+<input id="q" placeholder="GSE / E-MTAB accession or keyword (e.g. GSE131990, IFNB, macrophage)" autofocus>
+<label><input type="checkbox" id="only"> only datasets used by at least one method</label>
+<button id="exp">Export shown rows (CSV)</button><div id="cnt"></div>
+<table><thead><tr><th>Accession</th><th>Title (from our GEO search)</th><th>CytoSig</th><th>CytoSig final-training ligand columns</th><th>CytoSig pool ligands</th><th>TxCyto SI2</th><th>TxCyto SI3</th><th>Aybey 2025</th><th>HIRISA</th><th>IFN-β+γ eligibility audit (this study)</th></tr></thead><tbody id="tb"></tbody></table></section>
+<section id="about" style="display:none"><h1>Methods / About</h1>
+<p><b>Sources.</b> CytoSig candidate profiles and reconstructed final-training membership are traced in the CSV index. The resolved 1,307-column reconstruction matches all 43 official centroids; membership remains inferred because an official final-column list was not released. The legacy 1,306-column reconstruction is retained separately. Current eligibility: 2 of 66 screen-flagged candidates meet the donor-paired design criteria (GSE236156 and GSE237879), both recovered post hoc; this is not an exhaustive census or prospective holdout certification. Legacy manual flags do not certify human review. huCIRA’s non-GEO Parse reference is not certified by this accession lookup. See README and the current audit tables for scope.</p>
+<p><b>Titles and years</b> come from our GEO/ArrayExpress search (original search 2026-10-12; selected metadata corrections 2026-10-14) and are blank for accessions outside it. CytoSig used a placeholder accession GSE99999 for one RNA-seq study (SRP109118); it is kept as written.</p>
+<p><b>Limits.</b> Accession-level matching only; sample-level overlap and re-deposited data are not detected. Search recall against known IFN sources was 92.0-100%.</p>
+<p>Built <span id="built"></span>; <span id="nrow"></span> accessions. Draft, not deployed. Contact: [TODO].</p></section>
+<script src="data.js"></script><script>
+const D=window.LEAK,M=window.LEAK_META;document.getElementById('built').textContent=M.built;document.getElementById('nrow').textContent=M.n;
+function show(s){for(const x of['search','about'])document.getElementById(x).style.display=x==s?'':'none'}
+if(location.hash=='#about')show('about');
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let shown=[];
+function used(r){return r.cytosig_status||r.superseries_contains_final_training||r.txcyto_SI2_cytokines||r.txcyto_SI3_targets||r.aybey2025_role||r.hirisa_reference}
+function render(){const q=document.getElementById('q').value.trim().toLowerCase(),o=document.getElementById('only').checked;
+shown=D.filter(r=>(!o||used(r))&&(!q||Object.values(r).some(v=>String(v??'').toLowerCase().includes(q))));
+const v=shown.slice(0,500);document.getElementById('cnt').textContent=shown.length+' matching accessions'+(shown.length>500?' (first 500 shown)':'');
+document.getElementById('tb').innerHTML=v.map(r=>`<tr><td>${esc(r.accession)}</td><td>${esc(r.title)} ${r.year?'('+esc(r.year)+')':''}</td>
+<td class="${r.cytosig_status=='final_training'?'f':r.cytosig_status?'p':'n'}">${r.cytosig_status?esc(r.cytosig_status)+' ('+r.cytosig_final_columns+'/'+r.cytosig_pool_columns+' cols)':'not listed'}${r.superseries_contains_final_training?'<br>SuperSeries containing final-training SubSeries: '+esc(r.superseries_contains_final_training):''}</td>
+<td>${esc(r.cytosig_final_ligands)}</td><td>${esc(r.cytosig_pool_ligands)}</td><td>${esc(r.txcyto_SI2_cytokines)||'-'}</td><td>${esc(r.txcyto_SI3_targets)||'-'}</td><td>${esc(r.aybey2025_role)||'-'}</td><td>${r.hirisa_reference?'reference':'-'}</td><td>${esc(r.bg_audit_verdict)} ${r.bg_audit_reason?'<br><small>'+esc(r.bg_audit_reason)+'</small>':''}</td></tr>`).join('')}
+document.getElementById('q').oninput=render;document.getElementById('only').onchange=render;
+document.getElementById('exp').onclick=()=>{const k=Object.keys(D[0]);const c=[k.join(',')].concat(shown.map(r=>k.map(x=>'"'+String(r[x]??'').replace(/"/g,'""')+'"').join(','))).join('\n');
+const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([c],{type:'text/csv'}));a.download='leakage_subset.csv';a.click()};
+const p=new URLSearchParams(location.search).get('q');if(p)document.getElementById('q').value=p;render();
+</script></body></html>

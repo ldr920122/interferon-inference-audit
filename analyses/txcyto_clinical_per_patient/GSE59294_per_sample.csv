@@ -1,0 +1,11 @@
+gsm,title,tissue,treatment,time,patient,arm,IL4,IL13
+GSM1432945,Patient 1B Lesional Tissue Post-Treatment B,LS skin,B Dupilumab 150 mg,Post,1B,Dupilumab,-3.6177616436883793,-2.655104081311597
+GSM1432948,Patient 2B Lesional Tissue Post-Treatment B,LS skin,B Dupilumab 150 mg,Post,2B,Dupilumab,4.378949285193286,3.012376569249908
+GSM1432950,Patient 3B Lesional Tissue Post-Treatment B,LS skin,B Dupilumab 150 mg,Post,3B,Dupilumab,-2.8401108108985484,-0.9473865028940449
+GSM1432953,Patient 4B Lesional Tissue Post-Treatment B,LS skin,B Dupilumab 150 mg,Post,4B,Dupilumab,12.851477507299114,4.142743806518322
+GSM1432955,Patient 5B Lesional Tissue Post-Treatment B,LS skin,B Dupilumab 150 mg,Post,5B,Dupilumab,5.445128083824953,5.6363244030648065
+GSM1432959,Patient 6B Lesional Tissue Post-Treatment B,LS skin,B Dupilumab 150 mg,Post,6B,Dupilumab,-5.094242409058889,2.178195718366921
+GSM1432963,Patient 9C Lesional Tissue Post-Treatment C,LS skin,C Dupilumab 300 mg,Post,9C,Dupilumab,0.2511637883629139,-2.4630376751773597
+GSM1432971,Patient 13C Lesional Tissue Post-Treatment C,LS skin,C Dupilumab 300 mg,Post,13C,Dupilumab,10.79521924927593,6.041763670381249
+GSM1432975,Patient 14C Lesional Tissue Post-Treatment C,LS skin,C Dupilumab 300 mg,Post,14C,Dupilumab,-3.7449515347245232,-3.9789117249488033
+GSM1432982,Patient 18D Lesional Tissue Post-Treatment D,LS skin,D Placebo,Post,18D,Placebo,-11.722473486506644,-0.7469285775106895

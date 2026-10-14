@@ -1,0 +1,8 @@
+op,column,max_abs_diff,genes
+add,NO&Dose:600 uM_Duration:24h@Condition:T cell@GSE13887.MicroArray.HG-U133_Plus_2,1.1102230246251565e-16,4881
+drop,NO&Duration:4h@Condition:leukemia cell U937@GSE42344.MicroArray.HG-U133_Plus_2,0.636742118128307,4860
+drop,NO&Duration:24h@Condition:leukemia cell U937@GSE42344.MicroArray.HG-U133_Plus_2,0.7873236064390046,4860
+drop,NO&Duration:90min@Condition:leukemia cell U937@GSE42344.MicroArray.HG-U133_Plus_2,0.8857490783827633,4860
+drop,NO@Condition:Embryonic stem cell H181@GSE36609.MicroArray.HG-U133_Plus_2,1.3472149303400842,4860
+drop,NO@Condition:Prostate Cancer PC3@GSE34112.MicroArray.HG-U133_Plus_2,1.3472149303400842,4860
+drop,NO@Condition:TNBC MB231@GSE66322.MicroArray.PrimeView,1.3472149303400842,4881

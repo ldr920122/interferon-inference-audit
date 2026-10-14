@@ -1,0 +1,88 @@
+{
+ "n_samples": 36,
+ "n_patients": 6,
+ "original_sourcedata_spearman": {
+  "rho": -0.45562428321341253,
+  "p": 0.005230624395162989,
+  "n": 36
+ },
+ "T1T2_official": {
+  "rho": -0.4667922380299994,
+  "p_two_sided": 0.004105396618307949,
+  "ci95_fisher": [
+   -0.6895793111294791,
+   -0.16329372102771356
+  ],
+  "ci95_patient_bootstrap": [
+   -0.7174059432652499,
+   0.32645847801927697
+  ]
+ },
+ "T3_patient_level_official": {
+  "rho": -0.6761234037828132,
+  "p": 0.14035738661899458,
+  "n": 6
+ },
+ "T4_IFN1_vs_IFNG_official": {
+  "median_IFN1": -9.372482130130585,
+  "median_IFNG": -5.023855646936285,
+  "n_samples_IFN1_below_IFNG": 30,
+  "wilcoxon_p": 3.769237082451582e-07,
+  "n_patients_median_IFN1_below_IFNG": 4
+ },
+ "agreement_with_original_values_official": {
+  "spearman": 0.9966537966537966,
+  "p": 1.4352215466897683e-38
+ },
+ "IFNG_vs_titer_official": {
+  "rho": -0.1104072495158781,
+  "p": 0.5215037850480488
+ },
+ "T5_group_official": {
+  "mean_IFN1_titer_detected": -12.704383420590002,
+  "n_detected": 16,
+  "mean_IFN1_titer_undetected": -6.415472694636759,
+  "n_undetected": 20,
+  "mannwhitney_p": 0.050242075314448804
+ },
+ "T1T2_reproduced": {
+  "rho": -0.47230553217996,
+  "p_two_sided": 0.0036318777933413847,
+  "ci95_fisher": [
+   -0.6932707341626685,
+   -0.17016976519862678
+  ],
+  "ci95_patient_bootstrap": [
+   -0.7137357910413393,
+   0.3276700565137359
+  ]
+ },
+ "T3_patient_level_reproduced": {
+  "rho": -0.6761234037828132,
+  "p": 0.14035738661899458,
+  "n": 6
+ },
+ "T4_IFN1_vs_IFNG_reproduced": {
+  "median_IFN1": -9.292241187950777,
+  "median_IFNG": -4.809967538970464,
+  "n_samples_IFN1_below_IFNG": 29,
+  "wilcoxon_p": 5.541951395571232e-07,
+  "n_patients_median_IFN1_below_IFNG": 4
+ },
+ "agreement_with_original_values_reproduced": {
+  "spearman": 0.9951093951093951,
+  "p": 8.987027240686628e-36
+ },
+ "IFNG_vs_titer_reproduced": {
+  "rho": -0.10899358434922155,
+  "p": 0.5268828050471406
+ },
+ "T5_group_reproduced": {
+  "mean_IFN1_titer_detected": -12.537690129279396,
+  "n_detected": 16,
+  "mean_IFN1_titer_undetected": -6.178368586935954,
+  "n_undetected": 20,
+  "mannwhitney_p": 0.046620362348982945
+ },
+ "titer_match_with_original": 36
+}

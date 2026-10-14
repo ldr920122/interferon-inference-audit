@@ -1,0 +1,33 @@
+{
+  "title": "Interferon inference under audit: code and resource package",
+  "upload_type": "software",
+  "description": "Code and complete resource package accompanying the manuscript Interferon inference under audit: training-source overlap and patient-level validation of transcriptomic signatures. Version v1.11 preserves the complete v1.10 analytical resource, frozen public inputs, source-overlap index, eligibility records, reconstructed signatures, all-channel outputs, historical analyses and portable fixed-input verification code. This is a post hoc methods audit; it does not certify independent clinical validation or general ligand-source accuracy. Component licences: original verification code MIT; original audit tables CC BY 4.0; CytoSig matrices and MDM source files GPL v3; HGNC data CC0; other public source-study data retain their original terms. See LICENSE_SCOPE.md and THIRD_PARTY_NOTICES.md.",
+  "creators": [
+    {
+      "name": "Sun, Xiaohua",
+      "affiliation": "Department of General Practice, The Affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou, Jiangsu, China"
+    },
+    {
+      "name": "Liu, Dongrui",
+      "affiliation": "Department of Pharmacy, The Affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou, Jiangsu, China"
+    }
+  ],
+  "version": "v1.11",
+  "publication_date": "2026-10-14",
+  "access_right": "open",
+  "license": "other-open",
+  "keywords": [
+    "interferon",
+    "cytokine inference",
+    "training-source overlap",
+    "patient-level analysis",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ldr920122/interferon-inference-audit/tree/v1.11",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

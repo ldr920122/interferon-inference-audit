@@ -1,0 +1,18 @@
+{
+ "date": "2026-10-12T23:21:57.153650",
+ "endpoint": "https://www.ebi.ac.uk/biostudies/api/v1/arrayexpress/search?",
+ "q": {
+  "beta": {
+   "query": "(\"interferon beta\" OR \"IFN-beta\" OR IFNB1) AND (stimulation OR stimulated OR treated)",
+   "filter": "organism=Homo sapiens",
+   "totalHits": 60,
+   "retrieved": 60
+  },
+  "gamma": {
+   "query": "(\"interferon gamma\" OR \"IFN-gamma\" OR IFNG) AND (stimulation OR stimulated OR treated)",
+   "filter": "organism=Homo sapiens",
+   "totalHits": 132,
+   "retrieved": 132
+  }
+ }
+}

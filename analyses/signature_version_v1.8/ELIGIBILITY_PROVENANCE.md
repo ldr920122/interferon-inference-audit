@@ -1,0 +1,1 @@
+The legacy eligibility field manual is retained as historical metadata. It is not an attestation that a named human has approved all 66 records. The manuscript now states the verifiable fact that all 66 candidates have individual audit records. Final human source review remains unsigned.

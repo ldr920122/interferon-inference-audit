@@ -1,0 +1,68 @@
+{
+ "removed_training_columns": [
+  "IFNG@Condition:Whole Blood&Duration:24hrs@GSE78193.MicroArray.GPL6848",
+  "IFNG@Condition:Whole Blood&Duration:48hrs@GSE78193.MicroArray.GPL6848"
+ ],
+ "n_subjects": 26,
+ "n_post_samples": 75,
+ "n_genes_used": 4864,
+ "T1_spearman_full_vs_lso": 0.9996301564722616,
+ "T1_medians": {
+  "AMG811|day 15|full": -0.0038998834789176063,
+  "AMG811|day 15|lso": -0.003947500609005343,
+  "AMG811|day 56|full": -0.009459421421147089,
+  "AMG811|day 56|lso": -0.009673442853973197,
+  "AMG811|end of study|full": -0.00356177139929041,
+  "AMG811|end of study|lso": -0.003725995022758207,
+  "placebo|day 15|full": -0.0019552165505081834,
+  "placebo|day 15|lso": -0.002055770384307528,
+  "placebo|day 56|full": -0.004554509826583605,
+  "placebo|day 56|lso": -0.0044563719633602525,
+  "placebo|end of study|full": 0.007269712453915521,
+  "placebo|end of study|lso": 0.00702560578055368
+ },
+ "T2_full": {
+  "n_amg": 18,
+  "n_pbo": 8,
+  "median_amg": -0.00296474717547546,
+  "median_pbo": -0.0021664911525105033,
+  "p": 0.36701092957385867
+ },
+ "T2_lso": {
+  "n_amg": 18,
+  "n_pbo": 8,
+  "median_amg": -0.0028281820814841647,
+  "median_pbo": -0.002105456163011463,
+  "p": 0.36701092957385867
+ },
+ "T3_full_day 15": {
+  "IFNG_rank_most_negative": 6,
+  "n_cytokines": 43,
+  "most_negative": "EGF"
+ },
+ "T3_full_day 56": {
+  "IFNG_rank_most_negative": 2,
+  "n_cytokines": 43,
+  "most_negative": "GCSF"
+ },
+ "T3_full_end of study": {
+  "IFNG_rank_most_negative": 8,
+  "n_cytokines": 43,
+  "most_negative": "GCSF"
+ },
+ "T3_lso_day 15": {
+  "IFNG_rank_most_negative": 7,
+  "n_cytokines": 43,
+  "most_negative": "EGF"
+ },
+ "T3_lso_day 56": {
+  "IFNG_rank_most_negative": 2,
+  "n_cytokines": 43,
+  "most_negative": "GCSF"
+ },
+ "T3_lso_end of study": {
+  "IFNG_rank_most_negative": 7,
+  "n_cytokines": 43,
+  "most_negative": "GCSF"
+ }
+}

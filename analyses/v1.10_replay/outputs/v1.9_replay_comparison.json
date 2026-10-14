@@ -1,0 +1,30 @@
+[
+  {
+    "dataset": "GSE236156",
+    "rows": 40,
+    "max_absolute_difference": {
+      "z_IFN1": 1.3500311979441904e-13,
+      "z_IFNG": 1.7763568394002505e-13,
+      "IFNG_minus_IFN1": 2.5224267119483557e-13,
+      "rank_IFN1": 0.0,
+      "rank_IFNG": 0.0,
+      "n_genes": 0.0
+    },
+    "top1_matches": true,
+    "pass": true
+  },
+  {
+    "dataset": "GSE237879",
+    "rows": 32,
+    "max_absolute_difference": {
+      "z_IFN1": 9.237055564881302e-14,
+      "z_IFNG": 8.526512829121202e-14,
+      "IFNG_minus_IFN1": 1.3145040611561853e-13,
+      "rank_IFN1": 0.0,
+      "rank_IFNG": 0.0,
+      "n_genes": 0.0
+    },
+    "top1_matches": true,
+    "pass": true
+  }
+]

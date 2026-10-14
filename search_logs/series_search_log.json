@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-12T23:01:42.827774",
+ "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+ "queries": {
+  "IFNB": {
+   "term": "(\"interferon beta\" OR \"IFN-beta\" OR \"IFN beta\" OR IFNb OR IFNB1 OR \"IFN-b\" OR \"interferon-beta\") AND (stimulat* OR treated OR treatment OR \"in vitro\") AND \"Homo sapiens\"[Organism] AND gse[Entry Type] AND (\"expression profiling by high throughput sequencing\"[DataSet Type] OR \"expression profiling by array\"[DataSet Type])",
+   "count": 354,
+   "retrieved": 354
+  },
+  "IFNG": {
+   "term": "(\"interferon gamma\" OR \"IFN-gamma\" OR \"IFN gamma\" OR IFNg OR IFNy OR IFNG OR \"IFN-g\" OR \"interferon-gamma\") AND (stimulat* OR treated OR treatment OR \"in vitro\") AND \"Homo sapiens\"[Organism] AND gse[Entry Type] AND (\"expression profiling by high throughput sequencing\"[DataSet Type] OR \"expression profiling by array\"[DataSet Type])",
+   "count": 1228,
+   "retrieved": 1228
+  },
+  "IFNA": {
+   "term": "(\"interferon alpha\" OR \"IFN-alpha\" OR \"IFN alpha\" OR IFNa OR IFNA2 OR \"IFN-a\" OR \"interferon-alpha\") AND (stimulat* OR treated OR treatment OR \"in vitro\") AND \"Homo sapiens\"[Organism] AND gse[Entry Type] AND (\"expression profiling by high throughput sequencing\"[DataSet Type] OR \"expression profiling by array\"[DataSet Type])",
+   "count": 447,
+   "retrieved": 447
+  },
+  "IFNL": {
+   "term": "(\"interferon lambda\" OR \"IFN-lambda\" OR IFNL1 OR IFNL2 OR IFNL3 OR \"IL-29\" OR \"IFN-l\") AND (stimulat* OR treated OR treatment OR \"in vitro\") AND \"Homo sapiens\"[Organism] AND gse[Entry Type] AND (\"expression profiling by high throughput sequencing\"[DataSet Type] OR \"expression profiling by array\"[DataSet Type])",
+   "count": 70,
+   "retrieved": 70
+  }
+ },
+ "unique_GSE": 1854
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.8",
+  "primary": "Frozen official CytoSig results from supplied v1.7",
+  "legacy_reproduced_label": "signature=reproduced in previous additional files means legacy1306",
+  "resolved_signature": "cytosig_reproduction/diff.centroid_1307",
+  "new_bridge": "analyses/signature_version_v1.8",
+  "source_filter_rerun": false,
+  "all_legacy_clinical_trials_rerun": false,
+  "seven_validation_inputs_and_GSE72754_rebuilt": true,
+  "thresholds_retuned": false,
+  "new_models_trained": false,
+  "human_manuscript_approval": false
+}

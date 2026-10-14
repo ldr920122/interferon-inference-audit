@@ -1,0 +1,49 @@
+Investigation Title	Transcription profiling of human monocyte-derived macrophages infected with HIV-1 or stimulated with interferon-beta, interferon-gamma or lipopolysaccharide	
+Comment[Submitted Name]	HIV-1 infection of macrophages is dependent on evasion of innate immune cellular activation.	
+Experimental Design	reference_design	stimulated_design_type	co-expression_design	transcription profiling by array	
+Experimental Design Term Source REF	The MGED Ontology		The MGED Ontology	EFO	
+Comment[AEMIAMESCORE]	5	
+Comment[SecondaryAccession]		
+Comment[ArrayExpressReleaseDate]	2009-09-01	
+Comment[ArrayExpressAccession]	E-MEXP-2032	
+Comment[MAGETAB TimeStamp_Version]	2010-09-07 00:24:47 Last Changed Rev: 13833	
+Experimental Factor Name	DOSE	COMPOUND	CELLTYPE	TIME	DISEASE_STATE	
+Experimental Factor Type	dose	compound	cell_type	time	disease_state	
+Experimental Factor Term Source REF	
+Person Last Name	Noursadeghi	
+Person First Name	Mahdad	
+Person Mid Initials	
+Person Email	m.noursadeghi@ucl.ac.uk	
+Person Phone	2.22077E+11	
+Person Fax	
+Person Address	Infection & Immunity, Windeyer Building, 46 Cleveland Street, London, London, W1T 4JF, United Kingdom	
+Person Affiliation	University College London	
+Person Roles	submitter	
+Person Roles Term Source REF	The MGED Ontology	
+Quality Control Type	
+Quality Control Term Source REF	
+Replicate Type	
+Replicate Term Source REF	
+Normalization Type	
+Normalization Term Source REF	
+Date of Experiment	
+Public Release Date	2009-09-01	
+PubMed ID	
+Publication DOI	
+Publication Author List	Jhen Tsang, Benjamin M. Chain1, Robert F. Miller, Benjamin L.J. Webb, Wendy Barclay, Greg J. Towers, David R. Katz and Mahdad Noursadeghi	
+Publication Title	HIV 1 infection of macrophages is dependent on evasion of innate immune cellular activation.	
+Publication Status	
+Publication Status Term Source REF	
+Experiment Description	Transcriptional profiling of HIV-1 infected and that of IFNbeta, IFNgamma or LPS stimulated human monocyte derived macrophages.	
+Protocol Name	P-MTAB-3183	P-MTAB-3180	P-MTAB-3182	P-MTAB-3177	P-MTAB-3184	P-MTAB-3187	P-MTAB-3185	P-MTAB-3179	P-MTAB-3181	P-MTAB-3186	
+Protocol Type	grow	grow	nucleic_acid_extraction	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	specified_biomaterial_action	labeling	hybridization	bioassay_data_transformation	
+Protocol Description	Total RNA purchased from Stratagene (Catalog #740000)<br><br>Product sheet description:<br><br>Stratagenes Universal Human Reference RNA is composed of total RNA from 10 human cell lines. The reference RNA is designed to<br><br>be used as a reference for microarray gene-profiling experiments. Since RNA species differ in abundance between cell lines, an ideal<br><br>reference sample should represent these different RNAs. Equal quantities of DNase-treated total RNA from each cell line were<br><br>pooled to make the Universal Human Reference RNA. This Universal Reference RNA is suitable for microarray experiments.<br>(Parameters: time unit = seconds, temperature unit = C)	Human blood samples were obtained from healthy volunteers for isolation of peripheral blood mononuclear cells (PBMC) and production of MDM cultures. The study was approved by the joint University College London/University College London Hospitals NHS Trust Human Research Ethics Committee and written informed consent was obtained from all participants. PBMC were prepared by density-gradient centrifugation of heparinised blood with Lymphoprep (Axis-Shield) according to the manufacturers instructions and MDM were prepared as previously described26. PBMC were seeded (2 x10^6/cm2) for adhesion onto tissue culture plastic (Nunc). After one hour (h) at 37°C non-adherent cells (lymphocytes) were removed and adherent monocytes were incubated in RPMI 1640 (GIBCO Invitrogen) with 10% autologous heat-inactivated human serum (HS) supplemented with 20 ng/mL macrophage colony stimulating factor (M-CSF) (R&D systems) for three days. The media was then refreshed (without additional M-CSF), removing any remaining non-adherent cells. Typically, this protocol yields 10^5 MDM/cm2. After 6 days culture 10% autologous HS was replaced with 5% normal (N)HS (Sigma-Aldrich).<br>(Parameters: time unit = seconds, temperature unit = C)	MDM culture lysates collected in RLT buffer (Qiagen) were used to purify total RNA with RNAeasy spin columns (Qiagen) according to manufacturers instructions.<br>(Parameters: Extracted product = total_RNA, Amplification = none)	Macrophage tropic HIV-1 Ba-L strain propogated in peripheral blood lymphocytes and monocyte derived macrophages were used to inoculate macrophage cultures for 3 hours. The media was refreshed after 3 hours and at 3-4 day intervals thereafter.	Ultrapure lipopolysaccharide from E. coli O111:B4 (Invivogen) was prepared in RPMI with 5% NHS. Cell cultures were stimulated with 10ng/ml LPS for 3-24 hours for detection of transcriptional responses.	Recombinant human Interferon (IFN)? (from Merck Serono) was used to stimulate cell cultures at a concentration of 2 ng/ml for 4-24 hours to investigate transcriptional responses.	Recombinant human Interferon (IFN)gamma (from Peprotech) was used to stimulate cell cultures at a concentration of 10 ng/ml for 4-24 hours to investigate transcriptional responses.<br><br>	Total RNA was amplified reverse transcription and then transcribed into cRNA and labelled with Cy5 or Cy3 using the Agilent Low RNA Input Linear Amplification Kit.<br>(Parameters: Amount of nucleic acid labeled = 500, Amplification = none, Mass unit = Nano gram)	Agilent 2-colour cDNA 4x44k array hybridisation according to manufacturer's instruction. <br>(Parameters: Chamber type = OTHER: Agilent Chamber G2534-90001, Quantity of label target used = 825, Mass unit = Nano gram, time = 17, Tiny time unit = hours, Volume = 100, Volume unit = Micro litre, temperature = 65)	Merged Cy3 and Cy5 signal data from all arrays- Log2 transformed normalised data (Dye bias/Median centered protocol)	
+Protocol Parameters	
+Protocol Hardware	
+Protocol Software	
+Protocol Contact	
+Protocol Term Source REF										The MGED Ontology	
+SDRF File	E-MEXP-2032.sdrf.txt	
+Term Source Name	EFO		ncbitax	The MGED Ontology	ArrayExpress	NCI_thesaurus	The MGED Ontology	EFO	
+Term Source File	http://www.ebi.ac.uk/efo/		http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/arrayexpress	ncithesaurus.obo.alt	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://www.ebi.ac.uk/efo/	
+Term Source Version									

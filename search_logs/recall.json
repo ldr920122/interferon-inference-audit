@@ -1,0 +1,64 @@
+{
+ "CytoSig_IFN_any": {
+  "n": 174,
+  "series_hit": 158,
+  "sample_hit": 108,
+  "union": 160,
+  "missed": [
+   "GSE103500",
+   "GSE11299",
+   "GSE114284",
+   "GSE117637",
+   "GSE19182",
+   "GSE31455",
+   "GSE38351",
+   "GSE38663",
+   "GSE48313",
+   "GSE49835",
+   "GSE52081",
+   "GSE64794",
+   "GSE69602",
+   "GSE89612"
+  ]
+ },
+ "CytoSig_IFNB_or_IFNG": {
+  "n": 124,
+  "series_hit": 114,
+  "sample_hit": 108,
+  "union": 116,
+  "missed": [
+   "GSE103500",
+   "GSE11299",
+   "GSE114284",
+   "GSE19182",
+   "GSE38351",
+   "GSE52081",
+   "GSE69602",
+   "GSE89612"
+  ]
+ },
+ "TxCyto_SI2_IFN": {
+  "n": 29,
+  "series_hit": 26,
+  "sample_hit": 25,
+  "union": 27,
+  "missed": [
+   "GSE103500",
+   "GSE38351"
+  ]
+ },
+ "Aybey_IFN_stim_sets": {
+  "n": 9,
+  "series_hit": 9,
+  "sample_hit": 7,
+  "union": 9,
+  "missed": []
+ },
+ "Project_known_IFN_sources": {
+  "n": 10,
+  "series_hit": 10,
+  "sample_hit": 8,
+  "union": 10,
+  "missed": []
+ }
+}

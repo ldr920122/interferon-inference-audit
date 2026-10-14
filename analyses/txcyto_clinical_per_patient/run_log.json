@@ -1,0 +1,9 @@
+{
+ "GSE100093": "ok",
+ "GSE130588": "ok",
+ "GSE59294": "ok",
+ "GSE11903": "ok",
+ "GSE80060": "ok",
+ "GSE99802": "ok",
+ "GSE42048": "excluded in advance: ACHN cell-line xenografts in nude mice, no patients"
+}

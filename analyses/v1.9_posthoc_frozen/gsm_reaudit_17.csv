@@ -1,0 +1,18 @@
+accession,prior_tier,prior_reason,gsm_level_evidence_2026-10-14,v1.9_outcome
+GSE237879,Not usable,pDC with IFN-III; no b/g pair,"28 GSM: primary pDC; treatment medium/alpha/beta/gamma/lambda/CpG B/CpG B+lambda; author metadata donors d6,d8,d9,d10 (4 per arm); IFN-b 100 ng/mL, IFN-g 100 ng/mL, 12 h; counts",RECLASSIFIED Tier 1 (post hoc)
+GSE188847,Not usable,"post-mortem brain tissue, no exogenous stimulation","73 frontal cortex + 21 primary neuron GSM; neurons groups IFNB-high/low, IFNG-high/low, TNF-high/low, control (3 each)",Unchanged tier (non-immune); reason corrected
+GSE270507,Not usable,not transcriptome,"10 GSM MDM, IFN-b 10 U/mL / IFN-g 100 ng/mL 8 h; CUT&Tag H3K4me1, molecule genomic DNA",Unchanged
+GSE297820,Not usable,iPSC-derived DC differentiation; no b/g stimulation arms,5 GSM; no IFN treatment fields,Unchanged
+GSE43700,Not usable,IL-10 stimulation; CytoSig+TxCyto,"8 GSM PBMC, media or IL-10 only",Unchanged
+GSE70779,Not usable,HCV patients in vivo; endogenous IFN,"18 GSM paired liver biopsies PRE/EOT therapy",Unchanged
+GSE32245,Not usable,"patient skin, no stimulation",54 GSM; no IFN treatment fields,Unchanged
+GSE99299,Not usable,mouse cells,"39 human (cancer cell lines) + 42 mouse GSM; IFNb/IFNg/TNF arms",Unchanged (cell lines / mouse)
+GSE53454,Not usable,islets false positive,"90 GSM human islet cells; control vs IFN-beta+IFN-gamma combined (no separate arms)",Unchanged (non-immune; combined stimulus)
+GSE51334,Not usable,"replication timing, false positive","993 GSM, ChIP-seq/DNase (ENCODE)",Unchanged
+GSE31477,Not usable,ENCODE ChIP-seq,426 GSM ChIP-seq,Unchanged
+GSE190899,Not usable,intestinal organoids (non-immune; 2 donors),"35 GSM organoids; IFN-I/II/III arms",Unchanged (non-immune)
+GSE186244,Not usable,myoblast line; no IFN-b arm,"18 GSM myoblast line; untreated/IFNg/Dox+IFNg",Unchanged
+GSE161663,Not usable,airway epithelium; no IFN-g arm,"16 GSM SAEC ChIP-seq; IFN-b only",Unchanged
+GSE224351,Tier 3,in vivo PEG-IFN-β in patients; no IFN-γ arm,"89 GSM; IFN-b-1a therapy (Avonex/Plegridy)",Unchanged
+GSE42924,Tier 3,one IFN-β and one IFN-γ sample; no replicate design,"22 GSM DC; single IFN-alpha/beta/gamma samples (10^2 U/mL)",Unchanged
+GSE168710,Tier 2,already used in this project,4 GSM MDM,Unchanged

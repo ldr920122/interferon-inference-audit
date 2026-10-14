@@ -1,0 +1,90 @@
+{
+ "GSE72754_patient_table": [
+  {
+   "patient": 10101,
+   "titer": 100.0,
+   "ifn1": -13.490522885119727,
+   "n": 7,
+   "n_undet": 7
+  },
+  {
+   "patient": 30401,
+   "titer": 100.0,
+   "ifn1": -7.222548985247107,
+   "n": 7,
+   "n_undet": 7
+  },
+  {
+   "patient": 30402,
+   "titer": 895.0,
+   "ifn1": -8.620378361281976,
+   "n": 7,
+   "n_undet": 0
+  },
+  {
+   "patient": 30501,
+   "titer": 6039.0,
+   "ifn1": -20.213169790309887,
+   "n": 7,
+   "n_undet": 0
+  },
+  {
+   "patient": 60101,
+   "titer": 100.0,
+   "ifn1": 3.350095161074733,
+   "n": 5,
+   "n_undet": 3
+  },
+  {
+   "patient": 60102,
+   "titer": 100.0,
+   "ifn1": 3.3058094899605264,
+   "n": 3,
+   "n_undet": 3
+  }
+ ],
+ "A_patient_median_exact_perm": {
+  "rho": -0.6761234037828132,
+  "P_two_sided": 0.2,
+  "n": 6
+ },
+ "B_fraction_detected_exact_perm": {
+  "rho": -0.3394673699166022,
+  "P_two_sided": 0.4666666666666667,
+  "n": 6
+ },
+ "C_patient_mean_log10titer_exact_perm": {
+  "rho": -0.3946648814672956,
+  "P_two_sided": 0.45,
+  "n": 6
+ },
+ "D_within_patient_centered_perm": {
+  "rho": 0.0054432349395578975,
+  "P_two_sided": 0.9759024097590241,
+  "n_samples": 36,
+  "n_patients": 6,
+  "permutations": 10000
+ },
+ "ties": {
+  "n_samples_undetected": 20,
+  "n_patients_median_at_limit": 4
+ },
+ "GSE11903_TNFA_responders_signflip_exact": {
+  "n": 11,
+  "median": -0.4415014598507723,
+  "P_two_sided": 0.1064453125
+ },
+ "GSE11903_TNFA_R_vs_NR_exact_perm": {
+  "n": "11 vs 4",
+  "median_difference": -1.4458054809087522,
+  "P_two_sided": 0.10842490842490843
+ },
+ "GSE11903_TNFA_R_vs_NR_patient_bootstrap_CI95": [
+  -3.368568611143255,
+  0.4542191573100602
+ ],
+ "GSE11903_TNFA_responders_median_patient_bootstrap_CI95": [
+  -2.1361471480907204,
+  0.1725279461481116
+ ]
+}

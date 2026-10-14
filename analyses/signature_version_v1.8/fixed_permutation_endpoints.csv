@@ -1,0 +1,13 @@
+signature,target,n_contrasts,target_top3,correct_family_order,IFN_threshold_exceedances,rho_sample,rho_patient,patient_exact_P
+legacy1306,IFN1,70,69.0,67.0,,,,
+legacy1306,IFNG,14,14.0,14.0,,,,
+legacy1306,nonIFN,55,,,13.0,,,
+legacy1306,clinical,36,,,,-0.4691954688133156,-0.6761234037828133,0.2
+resolved1307,IFN1,70,69.0,67.0,,,,
+resolved1307,IFNG,14,14.0,14.0,,,,
+resolved1307,nonIFN,55,,,13.0,,,
+resolved1307,clinical,36,,,,-0.4691954688133156,-0.6761234037828133,0.2
+official,IFN1,70,69.0,67.0,,,,
+official,IFNG,14,14.0,14.0,,,,
+official,nonIFN,55,,,13.0,,,
+official,clinical,36,,,,-0.4691954688133156,-0.6761234037828133,0.2

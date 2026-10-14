@@ -1,0 +1,14 @@
+{
+ "candidate_accessions_total": 842,
+ "candidate_GEO": 794,
+ "candidate_ArrayExpress": 48,
+ "final_training_accessions_total": 611,
+ "final_GEO": 578,
+ "final_ArrayExpress": 33,
+ "final_columns": 1307,
+ "IFN_pool": 191,
+ "IFN_final": 185,
+ "BG_pool": 137,
+ "BG_final": 134,
+ "note": "v1.7 recomputed from leakage_index.csv and final_columns_resolved_1307.txt; v1.6 file mislabelled the 842 candidates as GEO and carried a stale final count (609)"
+}

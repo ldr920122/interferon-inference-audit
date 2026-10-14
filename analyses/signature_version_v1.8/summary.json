@@ -1,0 +1,86 @@
+{
+  "official_commit": "ce53cc7f",
+  "seed": 20261013,
+  "permutations": 1000,
+  "new_vs_official_max_centroid_abs": 4.440892098500626e-16,
+  "n_genes": 4881,
+  "n_channels": 43,
+  "datasets": [
+    {
+      "dataset": "GSE125352",
+      "n_contrasts": 15,
+      "n_genes": 4779,
+      "new_vs_official_max_z_abs": 2.4868995751603507e-14,
+      "old_vs_new_max_z_abs": 1.3597979048470665,
+      "elapsed_s": 0.2
+    },
+    {
+      "dataset": "GSE330780",
+      "n_contrasts": 8,
+      "n_genes": 4788,
+      "new_vs_official_max_z_abs": 1.4210854715202004e-14,
+      "old_vs_new_max_z_abs": 2.369025602839521,
+      "elapsed_s": 0.5
+    },
+    {
+      "dataset": "GSE174380",
+      "n_contrasts": 18,
+      "n_genes": 4319,
+      "new_vs_official_max_z_abs": 1.4210854715202004e-14,
+      "old_vs_new_max_z_abs": 1.406991427555362,
+      "elapsed_s": 0.8
+    },
+    {
+      "dataset": "GSE327707",
+      "n_contrasts": 120,
+      "n_genes": 4759,
+      "new_vs_official_max_z_abs": 2.1316282072803006e-14,
+      "old_vs_new_max_z_abs": 2.81946983477001,
+      "elapsed_s": 2.1
+    },
+    {
+      "dataset": "GSE218535",
+      "n_contrasts": 12,
+      "n_genes": 4818,
+      "new_vs_official_max_z_abs": 1.0658141036401503e-14,
+      "old_vs_new_max_z_abs": 0.8529730780333837,
+      "elapsed_s": 3.2
+    },
+    {
+      "dataset": "GSE288312",
+      "n_contrasts": 23,
+      "n_genes": 4871,
+      "new_vs_official_max_z_abs": 1.4210854715202004e-14,
+      "old_vs_new_max_z_abs": 1.747853412331593,
+      "elapsed_s": 3.5
+    },
+    {
+      "dataset": "GSE268354",
+      "n_contrasts": 6,
+      "n_genes": 4748,
+      "new_vs_official_max_z_abs": 2.842170943040401e-14,
+      "old_vs_new_max_z_abs": 2.4756161423668765,
+      "elapsed_s": 3.9
+    },
+    {
+      "dataset": "GSE72754",
+      "n_contrasts": 36,
+      "n_genes": 4873,
+      "new_vs_official_max_z_abs": 2.1316282072803006e-14,
+      "old_vs_new_max_z_abs": 4.405202353044535,
+      "elapsed_s": 4.3
+    }
+  ],
+  "n_total_contrasts": 238,
+  "sha256": {
+    "diff.centroid_1306": "9d74f9a949d1819a647b25e1482bdfbb48e1836737581d6915d6beb00076f9d8",
+    "diff.centroid_1307": "c79b3fb04a2ee0675bc80eb6b8b84fda1d85925cc7095a9e51b7c9ff296df3ec",
+    "signature.centroid": "60a3152afe429a7dbb41fa0597ab9730141ce858af16a35f7063e64bfc239bde"
+  },
+  "max_abs_IFN1_delta_old_new": 0.0992062291296136,
+  "max_abs_IFNG_delta_old_new": 0.0556556595156259,
+  "full_top1_changed": 3,
+  "threshold_changed": 0,
+  "family_order_changed": 0,
+  "max_abs_z_new_vs_official": 2.842170943040401e-14
+}

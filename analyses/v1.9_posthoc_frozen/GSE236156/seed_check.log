@@ -1,0 +1,10 @@
+GSE236156 seed 1 CP10k IFNg correct 5 /5 mean 19.49 | CP10k IFNb correct 5 /5 mean -5.69 | CPM IFNg correct 5 /5 mean 19.63 | CPM IFNb correct 1 /5 mean -0.29
+GSE236156 seed 2 CP10k IFNg correct 5 /5 mean 21.4 | CP10k IFNb correct 5 /5 mean -3.54 | CPM IFNg correct 5 /5 mean 21.63 | CPM IFNb correct 1 /5 mean 0.74
+GSE236156 seed 3 CP10k IFNg correct 5 /5 mean 20.42 | CP10k IFNb correct 5 /5 mean -4.47 | CPM IFNg correct 5 /5 mean 20.67 | CPM IFNb correct 1 /5 mean 1.44
+GSE236156 seed 4 CP10k IFNg correct 5 /5 mean 20.55 | CP10k IFNb correct 5 /5 mean -4.52 | CPM IFNg correct 5 /5 mean 21.87 | CPM IFNb correct 1 /5 mean 1.09
+GSE236156 seed 5 CP10k IFNg correct 5 /5 mean 20.84 | CP10k IFNb correct 5 /5 mean -3.98 | CPM IFNg correct 5 /5 mean 21.16 | CPM IFNb correct 1 /5 mean 2.4
+GSE237879 seed 1 CP10k gamma correct 4 / 4 | CP10k beta correct 4 / 4 | CPM gamma correct 3 / 4 | CPM beta correct 4 / 4
+GSE237879 seed 2 CP10k gamma correct 4 / 4 | CP10k beta correct 4 / 4 | CPM gamma correct 3 / 4 | CPM beta correct 4 / 4
+GSE237879 seed 3 CP10k gamma correct 4 / 4 | CP10k beta correct 4 / 4 | CPM gamma correct 3 / 4 | CPM beta correct 4 / 4
+GSE237879 seed 4 CP10k gamma correct 3 / 4 | CP10k beta correct 4 / 4 | CPM gamma correct 3 / 4 | CPM beta correct 4 / 4
+GSE237879 seed 5 CP10k gamma correct 4 / 4 | CP10k beta correct 4 / 4 | CPM gamma correct 3 / 4 | CPM beta correct 4 / 4

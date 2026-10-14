@@ -1,0 +1,26 @@
+{
+  "GSE72754": {
+    "n_samples": 36,
+    "n_patients": 6,
+    "per_sample_rho": -0.4667922380299994,
+    "per_sample_P": 0.004105396618307955,
+    "patient_median_rho": -0.6761234037828132,
+    "patient_exact_P": 0.2,
+    "n_exact_permutations": 720,
+    "bootstrap_definition_audit": "Frozen 95% interval -0.72 to 0.33 is a patient-cluster bootstrap of the per-sample correlation. It is not a confidence interval for the six-patient median correlation. No frozen numeric result was changed."
+  },
+  "further_six_clinical_series": {
+    "comparison_rows": 16,
+    "max_P_abs_difference": 1.1102230246251565e-16,
+    "n_samples_and_patient_counts_match": true,
+    "scope": "Statistics recomputed from frozen per-sample CytoSig outputs; not a new raw-expression inference run."
+  },
+  "GSE11903_TNFA": {
+    "responders_n": 11,
+    "nonresponders_n": 4,
+    "responders_exact_signflip_P": 0.1064453125,
+    "between_groups_exact_P": 0.10842490842490843,
+    "responders_median": -0.4415014598507723,
+    "median_difference": -1.4458054809087522
+  }
+}

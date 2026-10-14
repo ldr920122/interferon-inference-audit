@@ -1,0 +1,17 @@
+signature,dataset,stimulus,cells,control_design,overlap,contrasts,units,units_target_top3_all,median_unit_z,unit_z_range,median_unit_margin_vs_other_IFN,unit_margin_range,units_margin_positive,exact_signflip_P_two_sided,exact_signflip_P_one_sided
+official,GSE125352,IFN-β,primary,external control (GSE82227),partial overlap,15,5,5,34.4,31.8 to 39.6,4.1,2.3 to 8.8,5,0.0625,0.03125
+official,GSE174380,IFN-β,cell line,technical replicates,independent,18,18,18,38.6,30.7 to 48.2,19.9,15.1 to 27.2,18,7.62939453125e-06,3.814697265625e-06
+official,GSE218535,IFN-γ,primary,paired,independent,4,4,4,21.1,8.7 to 23.7,8.699999999999999,2.2 to 10.1,4,0.125,0.0625
+official,GSE268354,IFN-γ,primary,paired,independent,6,3,3,33.2,30.7 to 33.6,17,13.2 to 19.2,3,0.25,0.125
+official,GSE288312,IFN-α,primary,unpaired (control mean),independent,2,2,2,22,11.6 to 32.4,5.5,1.8 to 9.2,2,0.5,0.25
+official,GSE288312,IFN-γ,primary,unpaired (control mean),independent,4,4,4,15.7,9.1 to 22.3,8.199999999999999,6.5 to 9.2,4,0.125,0.0625
+official,GSE327707,IFN-α,primary,paired,independent,30,6,5,13.8,6.6 to 16.3,5.7,1.0 to 8.8,6,0.03125,0.015625
+official,GSE330780,IFN-β,cell line,unpaired (control mean),independent,5,5,5,27.5,25.3 to 32.6,5.5,4.0 to 13.5,5,0.0625,0.03125
+reproduced,GSE125352,IFN-β,primary,external control (GSE82227),partial overlap,15,5,5,34.3,32.0 to 39.8,2,0.6 to 6.9,5,0.0625,0.03125
+reproduced,GSE174380,IFN-β,cell line,technical replicates,independent,18,18,18,34.6,28.3 to 44.3,14.7,9.2 to 22.3,18,7.62939453125e-06,3.814697265625e-06
+reproduced,GSE218535,IFN-γ,primary,paired,independent,4,4,4,21.6,8.2 to 23.3,7.6,1.8 to 9.7,4,0.125,0.0625
+reproduced,GSE268354,IFN-γ,primary,paired,independent,6,3,3,32.2,29.7 to 33.7,17.5,13.0 to 18.8,3,0.25,0.125
+reproduced,GSE288312,IFN-α,primary,unpaired (control mean),independent,2,2,2,21.6,11.6 to 31.5,4.7,1.8 to 7.7,2,0.5,0.25
+reproduced,GSE288312,IFN-γ,primary,unpaired (control mean),independent,4,4,4,15.2,9.2 to 21.5,7.5,6.7 to 8.4,4,0.125,0.0625
+reproduced,GSE327707,IFN-α,primary,paired,independent,30,6,5,13.8,6.7 to 16.6,5.5,0.7 to 8.7,6,0.03125,0.015625
+reproduced,GSE330780,IFN-β,cell line,unpaired (control mean),independent,5,5,5,26.9,24.2 to 31.9,5.3,4.9 to 13.0,5,0.0625,0.03125

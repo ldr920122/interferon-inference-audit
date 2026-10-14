@@ -1,0 +1,15 @@
+{
+ "date": "2026-10-12T23:09:36.823487",
+ "queries": {
+  "IFNB": {
+   "term": "(\"interferon beta\" OR \"IFN-beta\" OR \"IFN beta\" OR IFNb OR IFNB1 OR \"IFN-b\" OR \"IFNb1a\" OR \"IFN-B1a\") AND \"Homo sapiens\"[Organism] AND gsm[Entry Type]",
+   "count": 7719,
+   "retrieved": 7719
+  },
+  "IFNG": {
+   "term": "(\"interferon gamma\" OR \"IFN-gamma\" OR \"IFN gamma\" OR IFNg OR IFNy OR IFNG OR \"IFN-g\" OR \"IFN-y\") AND \"Homo sapiens\"[Organism] AND gsm[Entry Type]",
+   "count": 18486,
+   "retrieved": 18486
+  }
+ }
+}

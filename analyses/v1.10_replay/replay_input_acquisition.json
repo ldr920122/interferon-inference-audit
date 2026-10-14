@@ -1,0 +1,41 @@
+[
+  {
+    "name": "MDM-IFN.featurecounts.tsv",
+    "source": "/Users/wbaoc/Documents/Obsidian/wbaoc-wiki/子弹笔记/论文工厂/Projects/ICI心肌炎跨区室组学重分析/Daily/2026-10-13-GSE236156限定固定评分复核/sources/MDM-IFN.featurecounts.tsv",
+    "sha256": "c5b4614d2347d0301d29afe1b4cf2a6fe7efc03538788434e3d815ead306ef3a",
+    "bytes": 40112545
+  },
+  {
+    "name": "MDM-IFN.metadata.csv",
+    "source": "/Users/wbaoc/Documents/Obsidian/wbaoc-wiki/子弹笔记/论文工厂/Projects/ICI心肌炎跨区室组学重分析/Daily/2026-10-13-GSE236156限定固定评分复核/sources/author_metadata.csv",
+    "sha256": "e063d7709783ebd6feb0205b4eb619eb884cce968fdac71ffd5b66f9ad87b024",
+    "bytes": 12412
+  },
+  {
+    "name": "signature.centroid",
+    "source": "/Users/wbaoc/Documents/论文工厂/.codex-tasks/2026-10-13-ici-v1.8/inputs/signature.centroid",
+    "sha256": "60a3152afe429a7dbb41fa0597ab9730141ce858af16a35f7063e64bfc239bde",
+    "bytes": 4341405
+  },
+  {
+    "name": "GSE237879_counts.txt.gz",
+    "source": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237879/suppl/GSE237879_counts.txt.gz",
+    "sha256": "587bfe79824def5c45143f6a8632326c439543e405c1d3140f9625870919e6c6",
+    "bytes": 1867857,
+    "status": "ok"
+  },
+  {
+    "name": "GSE237879_metadata.txt.gz",
+    "source": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237879/suppl/GSE237879_metadata.txt.gz",
+    "sha256": "bae1d2b43cc7551cff56705d436f4d738555ab14aa7a6a553453eb74648497a3",
+    "bytes": 586,
+    "status": "ok"
+  },
+  {
+    "name": "hgnc_complete_set.txt",
+    "source": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+    "sha256": "2828618d23d315be76ea415f7ef0e951858716ebab07e2d584190f52e5178c1e",
+    "bytes": 16982276,
+    "status": "ok"
+  }
+]

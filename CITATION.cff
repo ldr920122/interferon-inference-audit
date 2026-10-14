@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this fixed resource version and the originating studies."
+title: "Interferon inference under audit: code and resource package"
+type: software
+version: "v1.11"
+date-released: 2026-10-14
+repository-code: "https://github.com/ldr920122/interferon-inference-audit"
+url: "https://github.com/ldr920122/interferon-inference-audit/releases/tag/v1.11"
+authors:
+  - family-names: Sun
+    given-names: Xiaohua
+    affiliation: "Department of General Practice, The Affiliated Taizhou People's Hospital of Nanjing Medical University"
+  - family-names: Liu
+    given-names: Dongrui
+    affiliation: "Department of Pharmacy, The Affiliated Taizhou People's Hospital of Nanjing Medical University"
+license:
+  - MIT
+  - CC-BY-4.0
+  - GPL-3.0-only
+  - CC0-1.0
